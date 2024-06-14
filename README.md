@@ -78,3 +78,14 @@ xiaoyaliu/alist
 修改/.github/workflows/docker.yaml文件
 添加 schedule即可定时执行(此处cron使用UTC时区)
 ![](doc/定时执行.png)
+
+1.首先登录群晖打开控制面板➡终端机和SNMP➡勾选启用SSH功能。
+2、打开SSH工具登录群晖，我使用的是FinalShell，其他工具相同。输入群晖IP、端口、用户名和密码点击登录。
+3、输入sudo -i然后输入密码（密码不显示）使用root权限。
+4.拉取镜像：
+
+docker pull   （镜像名称）
+
+例子： docker pull  nginx #拉取nginx镜像
+
+6、回到Container Manager可以看到nginx镜像已经下载完成。
