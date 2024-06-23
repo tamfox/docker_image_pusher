@@ -8,4 +8,4 @@ linuxserver/plex
 --platform=linux/amd64 qdtoday/qd
 jellyfin/jellyfin
 linuxserver/emby
-nandolavras/pppwn
+
